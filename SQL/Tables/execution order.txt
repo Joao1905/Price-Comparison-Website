@@ -1,0 +1,5 @@
+1 - user
+2 - shops
+3 - products
+4 - models
+5 - price_history

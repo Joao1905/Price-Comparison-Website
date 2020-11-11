@@ -1,0 +1,93 @@
+.boxsection-1 {
+                    float: left;
+                    height: 100%;
+                    width: 20rem;
+                    position: relative;
+                   background-color: #000000 !important;  /* card overlays section, makes no difference */
+}
+
+.boxsection-2 {
+                    height: 100%;
+                    width: 70%;
+                    display: grid;
+                   /*background-color: #00ff00 !important;*/
+}
+
+.boxsection-3 {
+                    height: 100%;
+                    width: 9rem;
+                   display: grid;
+                   left:90%;
+                   /*background-color: #ff0000 !important;*/
+                   float:left;
+                   vertical-align:top;
+}
+
+h1 {
+    color: #fff !important;
+    font-size: 22px !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 300;
+}
+
+#Filter {
+    position: fixed;
+    top: 10rem;
+}
+
+#Filter2 {
+    position: fixed;
+    top: 20rem;
+}
+
+h2 {
+    color: #fff !important;
+    font-size: 28px !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight:normal !important;
+}
+
+#dark_mode {
+    font-size: 30px;
+    color: #ffffff;
+    opacity:0.6;
+    transition: 0.3s;
+    position: fixed;
+    top: 5.2rem;
+    left:17rem;
+}
+
+#dark_mode:hover {
+    opacity:1;
+    cursor: default;
+}
+
+#up_page {
+    font-size: 30px;
+    color: #ffffff;
+    opacity:0.6;
+    transition: 0.3s;
+    position: fixed;
+    top: 5.2rem;
+    left: 14rem;
+}
+
+#up_page:hover {
+    opacity:1;
+    cursor: default;
+}
+
+#down_page {
+    font-size: 30px;
+    color: #ffffff;
+    opacity:0.6;
+    transition: 0.3s;
+    position: fixed;
+    top: 5.2rem;
+    left: 12rem;
+}
+
+#down_page:hover {
+    opacity:1;
+    cursor: default;
+}

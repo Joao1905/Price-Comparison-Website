@@ -1,0 +1,18 @@
+html {
+                	height:100%;
+	margin: 0; padding: 0;
+	background: linear-gradient(-45deg, #1E5954, #2B237C, #520BB7) !important; 
+	background-size: 250% 250% !important;
+	position: relative !important;
+	animation: bg 10s ease-in-out infinite !important;
+}
+
+@keyframes bg {
+	0% {
+		background-position: 0 50%;
+	} 50% {
+		background-position: 100% 50%;
+	} 100% {
+		background-position: 0 50%;
+	}
+}

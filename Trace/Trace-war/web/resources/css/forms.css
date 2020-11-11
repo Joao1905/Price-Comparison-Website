@@ -1,0 +1,30 @@
+.prefix  {
+  color: #555;
+  display: block !important;
+}
+
+.autocomplete {
+    color: #555 !important;
+    background-color: transparent;
+}
+
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: transparent !important;
+}
+
+.dropdown-content {
+background-color: #f00;
+margin: 0;
+margin-top: 0px;
+margin-bottom: 0px;
+display: none;
+min-width: 100px;
+max-height: 650px;
+overflow-y: auto;
+opacity: 0;
+position: absolute;
+z-index: 999;
+will-change: width, height;
+}
